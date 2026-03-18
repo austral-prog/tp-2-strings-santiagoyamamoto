@@ -65,4 +65,4 @@ def ficha():
     print(f"Suma: {suma}")
     print(f"Promedio: {suma/3}")
     print(f"Promedio entero: {suma//3}")
-    print("="*24)
+    print("="*24) 
