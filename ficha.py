@@ -29,7 +29,7 @@ def ficha():
     #   - Cierre decorativo usando repetición de string ("=" * 24)
     pass
 
-    nombre=input("Ingrese su nombre completo: ").lower()
+    nombre=input("Ingrese su nombre completo: ").lower().strip()
     email=input("Ingrese su email: ")
     nota1= int(input("Ingrese la primer nota: "))
     nota2 = int(input("Ingrese la segunda nota: "))
@@ -66,4 +66,3 @@ def ficha():
     print(f"Promedio: {suma/3}")
     print(f"Promedio entero: {suma//3}")
     print("="*24)
-
