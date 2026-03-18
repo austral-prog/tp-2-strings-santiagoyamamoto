@@ -47,14 +47,14 @@ def ficha():
     lugar= int(nombre.find(" "))
 
     print(f"Iniciales: {nombre[0].upper()+nombre[lugar+1].upper()}")
-    print(f"Usuario: {nombre.lower()[lugar+1:] + "." + nombre.lower()[:lugar] }")
-    print(f"Email valido: {"@" in email}")
+    print(f"Usuario: {nombre.lower()[lugar+1:] + '.' + nombre.lower()[:lugar] }")
+    print(f"Email valido: {'@' in email}")
 
-    arroba= email.find("@")
+    arroba= email.find('@')
 
     print(f"Dominio: {email[arroba+1:].lower()}")
-    print(f"Nombre para archivo: {nombre.replace(" ", "_").title()}")
-    print(f"Cantidad de a: {nombre.count("a")}")
+    print(f"Nombre para archivo: {nombre.replace(' ', '_').title()}")
+    print(f"Cantidad de a: {nombre.count('a')}")
     print(f"Codigo secreto: {nombre[::-1].upper()}")
     print(f"Nota 1: {nota1}")
     print(f"Nota 2: {nota2}")
@@ -65,4 +65,5 @@ def ficha():
     print(f"Suma: {suma}")
     print(f"Promedio: {suma/3}")
     print(f"Promedio entero: {suma//3}")
-    print("="*24) 
+    print("="*24)
+
