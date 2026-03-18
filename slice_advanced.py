@@ -3,3 +3,5 @@ def slice_advanced():
     en adelante, tomando uno de cada dos (paso 2).
     """
     pass
+    palabra=input()
+    print(f"{palabra[4::2]}")
