@@ -4,7 +4,8 @@ def check_vowels():
     """
     pass
 
-    nombre=input().lower()
+    nombre=input()
+    min=nombre.lower()
     print(f"Contiene a: {"a" in nombre}")
     print(f"Contiene e: {"e" in nombre}")
     print(f"Contiene i: {"i" in nombre}")
