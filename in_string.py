@@ -5,9 +5,8 @@ def check_vowels():
     pass
 
     nombre=input()
-    min=nombre.lower()
-    print(f"Contiene a: {'a' in nombre}")
-    print(f"Contiene e: {'e' in nombre}")
-    print(f"Contiene i: {'i' in nombre}")
-    print(f"Contiene o: {'o' in nombre}")
-    print(f"Contiene u: {'u' in nombre}")
+    print(f"Contiene a: {'a' or 'A' in nombre}")
+    print(f"Contiene e: {'e' or 'E' in nombre}")
+    print(f"Contiene i: {'i' or 'I' in nombre}")
+    print(f"Contiene o: {'o' or 'O' in nombre}")
+    print(f"Contiene u: {'u' or 'U' in nombre}")
