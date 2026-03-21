@@ -5,10 +5,11 @@ def names():
     pass
 
     nombre=input()
-    min= nombre.lower()
-    tit= nombre.title()
-    may= nombre.upper()
-    tab= '\t' + nombre.lower()
+    appelido= input()
+    min= nombre.lower() + " " + appelido.lower()
+    tit= nombre.title() + " " + appelido.title()
+    may= nombre.upper() + " " + appelido.upper()
+    tab= "\t" + nombre.lower() + " " + appelido.lower()
 
     print(min)
     print(tit)
