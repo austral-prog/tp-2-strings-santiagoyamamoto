@@ -8,7 +8,7 @@ def names():
     min= nombre.lower()
     tit= nombre.title()
     may= nombre.upper()
-    tab= "\t" + nombre.lower()
+    tab= '\t' + nombre.lower()
 
     print(min)
     print(tit)
