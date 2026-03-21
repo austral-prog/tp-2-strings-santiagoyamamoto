@@ -5,7 +5,12 @@ def names():
     pass
 
     nombre=input()
-    print(f"{nombre.lower()}")
-    print(f"{nombre.title()}")
-    print(f"{nombre.upper()}")
-    print(f"\t{nombre.lower()}")
+    min= nombre.lower()
+    tit= nombre.title()
+    may= nombre.upper()
+    tab= "\t" + nombre.lower()
+
+    print(min)
+    print(tit)
+    print(may)
+    print(tab)
